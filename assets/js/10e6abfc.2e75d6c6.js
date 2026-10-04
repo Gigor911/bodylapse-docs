@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbodylapse_docs=self.webpackChunkbodylapse_docs||[]).push([[5921],{8521(e){e.exports=JSON.parse('{"name":"docs-kit-theme","id":"default"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbodylapse_docs=self.webpackChunkbodylapse_docs||[]).push([[3212],{9431(s){s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"home"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbodylapse_docs=self.webpackChunkbodylapse_docs||[]).push([[6710],{7664(e){e.exports=JSON.parse('{"tags":[{"label":"overview","permalink":"/bodylapse-docs/home/tags/overview","count":2}]}')}}]);

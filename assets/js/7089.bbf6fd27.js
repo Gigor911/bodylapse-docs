@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbodylapse_docs=self.webpackChunkbodylapse_docs||[]).push([[7089],{7089(e,s,c){c.d(s,{createArchitectureServices:()=>a.S});var a=c(5796);c(4954)}}]);

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bodylapse · Camera · propped · aligning</title>
+<script src="../support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&amp;display=swap">
+<style>
+body{margin:0;font-family:"Instrument Sans",-apple-system,system-ui,sans-serif;color:#EEEDE9;background:#131311}
+button{font:inherit;cursor:pointer}
+a{color:#F2C24F}a:hover{color:#F7D683}
+</style>
+</helmet>
+<div style="position: relative; width: 390px; height: 844px; overflow: hidden; box-sizing: border-box; background: #2A2327; background-image: radial-gradient(circle at 72% 18%, rgba(255,232,208,0.20) 0, rgba(255,232,208,0) 38%), linear-gradient(180deg, #3D3438 0%, #322A2E 66%, #262023 66%, #1E191B 100%); color: #EEEDE9">
+<svg aria-label="Live camera: person standing slightly too close" width="214" height="556" viewBox="0 0 100 260" style="position: absolute; left: 94px; top: 168px"><g fill="#B49A94"><circle cx="50" cy="22" r="14"></circle><path d="M44 36C44 40 42 42 36 44L24 48C18 50 16 56 16 62L14 104C14 110 18 112 20 106L24 70L26 70L27 112C27 120 28 128 30 134L32 196C32 204 33 236 34 246C34 252 44 252 44 246L46 160L50 150L54 160L56 246C56 252 66 252 66 246C67 236 68 204 68 196L70 134C72 128 73 120 73 112L74 70L76 70L80 106C82 112 86 110 86 104L84 62C84 56 82 50 76 48L64 44C58 42 56 40 56 36Z"></path></g></svg>
+<svg aria-label="Ghost of last week's front photo" width="190" height="494" viewBox="0 0 100 260" style="position: absolute; left: 100px; top: 206px; opacity: 0.25"><g fill="#FFFFFF" transform="translate(50 0) scale(1.03 1) translate(-50 0)"><circle cx="50" cy="22" r="14"></circle><path d="M44 36C44 40 42 42 36 44L24 48C18 50 16 56 16 62L14 104C14 110 18 112 20 106L24 70L26 70L27 112C27 120 28 128 30 134L32 196C32 204 33 236 34 246C34 252 44 252 44 246L46 160L50 150L54 160L56 246C56 252 66 252 66 246C67 236 68 204 68 196L70 134C72 128 73 120 73 112L74 70L76 70L80 106C82 112 86 110 86 104L84 62C84 56 82 50 76 48L64 44C58 42 56 40 56 36Z"></path></g></svg>
+<svg aria-label="Your outline from last week" width="190" height="494" viewBox="0 0 100 260" style="position: absolute; left: 100px; top: 206px"><g fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="1.1" stroke-dasharray="3 2.5" transform="translate(50 0) scale(1.03 1) translate(-50 0)"><circle cx="50" cy="22" r="14"></circle><path d="M44 36C44 40 42 42 36 44L24 48C18 50 16 56 16 62L14 104C14 110 18 112 20 106L24 70L26 70L27 112C27 120 28 128 30 134L32 196C32 204 33 236 34 246C34 252 44 252 44 246L46 160L50 150L54 160L56 246C56 252 66 252 66 246C67 236 68 204 68 196L70 134C72 128 73 120 73 112L74 70L76 70L80 106C82 112 86 110 86 104L84 62C84 56 82 50 76 48L64 44C58 42 56 40 56 36Z"></path></g></svg>
+<div style="position: absolute; left: 16px; right: 16px; top: 58px; display: flex; justify-content: space-between; align-items: center">
+<a href="Main.dc.html" aria-label="End check-in" style="width: 44px; height: 44px; border-radius: 22px; display: flex; align-items: center; justify-content: center; color: #EEEDE9; background: rgba(19,19,17,0.55); backdrop-filter: blur(22px); -webkit-backdrop-filter: blur(22px); border: 1px solid rgba(255,255,255,0.12)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></a>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 8px 18px; border-radius: 22px; background: rgba(19,19,17,0.55); backdrop-filter: blur(22px); -webkit-backdrop-filter: blur(22px); border: 1px solid rgba(255,255,255,0.12)"><span style="font-size: 15px"><b>Front</b><span style="color: #A9A79F"> · 1 of 4</span></span><span style="display: flex; gap: 4px"><i style="width: 22px; height: 4px; border-radius: 2px; background: #EEEDE9"></i><i style="width: 22px; height: 4px; border-radius: 2px; background: rgba(255,255,255,0.22)"></i><i style="width: 22px; height: 4px; border-radius: 2px; background: rgba(255,255,255,0.22)"></i><i style="width: 22px; height: 4px; border-radius: 2px; background: rgba(255,255,255,0.22)"></i></span></div>
+<button aria-label="Voice guidance on" style="width: 44px; height: 44px; border-radius: 22px; display: flex; align-items: center; justify-content: center; color: #F2C24F; background: rgba(19,19,17,0.55); backdrop-filter: blur(22px); -webkit-backdrop-filter: blur(22px); border: 1px solid rgba(255,255,255,0.12)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 10v4h3l4 3V7L8 10z"></path><path d="M16 9.5a3.5 3.5 0 0 1 0 5"></path><path d="M18.5 7a7 7 0 0 1 0 10"></path></svg></button>
+</div>
+<div style="position: absolute; left: 0; right: 0; top: 124px; display: flex; justify-content: center">
+<div role="status" style="display: flex; align-items: center; gap: 10px; padding: 12px 18px; border-radius: 999px; background: rgba(19,19,17,0.62); backdrop-filter: blur(22px); -webkit-backdrop-filter: blur(22px); border: 1px solid rgba(255,255,255,0.12)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F2C24F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V6"></path><path d="M7 11l5-5 5 5"></path></svg><span style="font-size: 17px; font-weight: 600">Step back a little</span></div>
+</div>
+<div style="position: absolute; right: 16px; top: 300px; display: flex; flex-direction: column; gap: 4px; padding: 6px; border-radius: 28px; background: rgba(19,19,17,0.55); backdrop-filter: blur(22px); -webkit-backdrop-filter: blur(22px); border: 1px solid rgba(255,255,255,0.12)">
+<button aria-label="Ghost photo, 25 percent" style="width: 44px; height: 52px; border: 0; border-radius: 22px; background: rgba(255,255,255,0.08); color: #F2C24F; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"></path><circle cx="12" cy="12" r="3"></circle></svg><span style="font-size: 10px; font-weight: 700">25%</span></button>
+<button aria-label="Outline guide on" style="width: 44px; height: 44px; border: 0; border-radius: 22px; background: rgba(255,255,255,0.08); color: #F2C24F; display: flex; align-items: center; justify-content: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2.5 2" aria-hidden="true"><circle cx="12" cy="5" r="2.5"></circle><path d="M8 9h8l-1 6h-1l-1 6h-2l-1-6H9z"></path></svg></button>
+</div>
+<div style="position: absolute; left: 0; right: 0; bottom: 196px; display: flex; justify-content: center">
+<span style="display: flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px; background: rgba(19,19,17,0.55); backdrop-filter: blur(22px); -webkit-backdrop-filter: blur(22px); border: 1px solid rgba(255,255,255,0.12); font-size: 13px; font-weight: 600; color: #6FBF93"><svg width="28" height="12" viewBox="0 0 28 12" aria-hidden="true"><path d="M1 6h26" stroke="#6FBF93" stroke-width="2" stroke-linecap="round"></path><circle cx="14" cy="6" r="4" fill="#6FBF93"></circle></svg>Phone level</span>
+</div>
+<div style="position: absolute; left: 0; right: 0; bottom: 146px; display: flex; justify-content: center"><span style="font-size: 13px; color: #A9A79F">Propped · shoots when you’re lined up</span></div>
+<div style="position: absolute; left: 28px; right: 28px; bottom: 40px; display: flex; justify-content: space-between; align-items: center">
+<button aria-label="10 second timer" style="width: 56px; height: 56px; border-radius: 28px; color: #EEEDE9; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px; background: rgba(19,19,17,0.55); backdrop-filter: blur(22px); -webkit-backdrop-filter: blur(22px); border: 1px solid rgba(255,255,255,0.12)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"></circle><path d="M12 9v4l2.5 2"></path><path d="M9 2h6"></path></svg><span style="font-size: 10px; font-weight: 700">10s</span></button>
+<button aria-label="Take photo now" style="width: 80px; height: 80px; border-radius: 40px; border: 4px solid #EEEDE9; background: transparent; padding: 5px; box-sizing: border-box"><span style="display: block; width: 100%; height: 100%; border-radius: 50%; background: rgba(238,237,233,0.9)"></span></button>
+<button aria-label="Switch camera" style="width: 56px; height: 56px; border-radius: 28px; color: #EEEDE9; display: flex; align-items: center; justify-content: center; background: rgba(19,19,17,0.55); backdrop-filter: blur(22px); -webkit-backdrop-filter: blur(22px); border: 1px solid rgba(255,255,255,0.12)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z"></path><path d="M9 13a3 3 0 0 1 5-2"></path><path d="M15 13a3 3 0 0 1-5 2"></path></svg></button>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

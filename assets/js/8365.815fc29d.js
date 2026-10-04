@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbodylapse_docs=self.webpackChunkbodylapse_docs||[]).push([[8365],{8365(e,s,a){a.d(s,{createRadarServices:()=>c.f});var c=a(5552);a(4954)}}]);

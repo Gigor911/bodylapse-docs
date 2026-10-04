@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbodylapse_docs=self.webpackChunkbodylapse_docs||[]).push([[9265],{4388(e,s,t){t.r(s),t.d(s,{default:()=>o});var r=t(4848),n=t(5260),c=t(612),d=t(6025);function o(){const e=(0,d.Ay)("/home/");return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(n.A,{children:(0,r.jsx)("meta",{httpEquiv:"refresh",content:`0; url=${e}`})}),(0,r.jsx)(c.rd,{to:e})]})}}}]);
